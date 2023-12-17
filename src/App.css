@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -87,7 +88,7 @@ z-index: 3;
 .section-1{
   font-family:  Verdana, Geneva, Tahoma, sans-serif;
   color: white    ;
-  /* background-image: url(sliders-banner-2.png.jpg); */
+  background-color: orange;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -293,6 +294,9 @@ z-index: 3;
   top: 0;
   z-index: 4;
 }
+.popup-heading{
+  background-image: linear-gradient(135deg, orange,red);
+}
 .pop-up-privacy-policy{
   transition: 0.5s;
   width: 80%;
@@ -306,6 +310,15 @@ z-index: 3;
 }
 .fa-x{
   cursor: pointer;
+}
+.pop-up-modal{
+  width: 80%;
+}
+.ok-btn{
+  background-color: red;
+}
+.ok-btn:hover{
+  background-color: orange;
 }
 /* media-query================================================================================ */
 
@@ -352,8 +365,14 @@ z-index: 3;
   .section-4-card{
       width: 40%;
   }
+  .card-custom{
+    text-align: center;
 }
-@media screen and (max-width:400px) {
+}
+@media screen and (max-width:450px) {
+  .nav-link{
+    padding-left: 13px;
+  }
   .section-1 p{
       font-size: 10px;
   } 
@@ -363,9 +382,9 @@ z-index: 3;
   .section-introduction p{
       font-size: 15px;
   }
-  .section-4-card{
+  /* .section-4-card{
       width: 90%;
-  }
+  } */
   .whatsup-icon{
       bottom: 3%;
       right: 5%;
@@ -381,7 +400,5 @@ z-index: 3;
   .contact-info h4 {
       font-size: 16px;
   }
-  .card-custom{
-      text-align: center;
-  }
+
 }
