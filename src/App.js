@@ -36,7 +36,7 @@ function App() {
             <div id="carouselExampleInterval" className="carousel slide pt-5" data-bs-ride="carousel">
                 <div className="carousel-inner py-5">
                     <div className="carousel-item active lg:w-75 text-center" data-bs-interval="10000">
-                        {/* <img src="./images/section 1/Deposit withdrawal_.png" alt=""> */}
+                        <img src="sliders-banner-2.png.jpg" alt="" />
                         <h5 className="mb-3">Accelerate Your Trading Power</h5>
                         <h1 className="fw-bold">Instant Pay-in/Payout Facilities</h1>
                         <div className="w-100">
